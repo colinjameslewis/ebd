@@ -15,7 +15,7 @@
 
 <div>
 
-CONTACT US
+CONTACT US Now
 
 </div>	
 
@@ -24,7 +24,7 @@ CONTACT US
 
 
 
-
+yl
 <?php 
 
 	include(ROOT_PATH . "inc/footer.php");

@@ -8,7 +8,6 @@
 
 	include("inc/head.php"); 
 	include("inc/header.php");
-	include("inc/employees.php");
 
 ?>
 
