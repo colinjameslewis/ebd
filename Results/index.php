@@ -32,10 +32,10 @@
 				'<div class="col-sm-8">'			
 					.
 					'<p class="lead"><em>&ldquo;' . $result["quote"] . '&rdquo;</em></p>'
-					.
-					'<div class="text-right"><b>' . $result["source"] . '<br /><small>' . $result["sourceTitle"] . '</small>' . '</b></div>'
-					.
-					'<div class="text-primary"><a href="' . results_URL . $result["caseStudy"] . '" target="_blank">' . 'View Full Report <span class="glyphicon glyphicon-chevron-right"></span></a></div>'				
+						.
+						'<div class="text-right"><b>' . $result["source"] . '<br /><small>' . $result["sourceTitle"] . '</small>' . '</b></div>'
+						.
+						'<div class="text-primary"><a href="' . results_URL . $result["caseStudy"] . '" target="_blank">' . 'View Full Report <span class="glyphicon glyphicon-chevron-right"></span></a></div>'				
 				.
 				'</div>'
 			.
