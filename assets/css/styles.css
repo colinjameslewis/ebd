@@ -135,7 +135,14 @@ header {
 
 /********** page:HOME **********/
 .headline {
-  font-size: 7.75vw; }
+  font-size: 45px;
+  font-size: 3.33vw; }
+  @media (max-width: 750.75075px) {
+    .headline {
+      font-size: 25px; } }
+  @media (min-width: 1951.95195px) {
+    .headline {
+      font-size: 65px; } }
 
 .subline {
   font-size: 4.5vw; }
@@ -292,6 +299,45 @@ h2 {
     display: none; }
 
 /********** page:ARTICLES **********/
+.title-text {
+  display: block;
+  text-align: center;
+  margin: auto;
+  margin-top: 15px;
+  padding-top: 7px;
+  padding-bottom: 10px;
+  font-size: 15px; }
+
+.article {
+  background-color: white;
+  display: block;
+  color: initial;
+  width: 90%;
+  margin: auto;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  font-weight: 600;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  min-height: 80px;
+  border-radius: 2px;
+  box-shadow: 5px 5px 7px #d3d3d3; }
+
+.article-icon {
+  display: block;
+  margin-right: 25px;
+  margin-left: 25px;
+  padding-bottom: 10px;
+  border-bottom-style: solid;
+  border-bottom-color: #d3d3d3;
+  border-bottom-width: 1px; }
+  .article-icon:last-child {
+    border-bottom-style: none; }
+  .article-icon .logo-center {
+    margin: auto;
+    display: block;
+    height: 55px; }
+
 /********** page:CONTACT **********/
 /********** page:JOBS **********/
 /********** page:PRIVACY - TERMS **********/
@@ -395,7 +441,56 @@ footer {
   footer #sub-footer div:first-child {
     text-align: left; }
   footer #sub-footer div:last-child {
-    text-align: right; } }
+    text-align: right; }
+
+  /********** page:ARTICLES **********/
+  .title-text {
+    display: block;
+    text-align: center;
+    margin: auto;
+    padding-top: 7px;
+    padding-bottom: 10px;
+    border-top-style: none; }
+
+  .article-icon {
+    display: block;
+    margin: auto;
+    padding-right: 10px;
+    padding-bottom: none;
+    border-bottom-style: none; }
+    .article-icon .logo-center {
+      margin: auto;
+      display: block;
+      height: 40px; }
+
+  .article {
+    background-color: white;
+    display: block;
+    color: initial;
+    width: 90%;
+    margin: auto;
+    font-size: 15px;
+    font-weight: 600;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    min-height: 80px;
+    box-shadow: none;
+    border-bottom-style: solid;
+    border-bottom-color: #d3d3d3;
+    border-bottom-width: 1px; }
+    .article:last-child {
+      border-bottom-style: none; }
+
+  #inner-article-container {
+    width: 80%;
+    margin: auto; }
+
+  #article-container {
+    width: 90%;
+    padding: 100px 0 125px 0;
+    background-image: url(/assets/img/article-background.png);
+    background-size: 100% 100%;
+    margin: 0 auto; } }
 @media screen and (min-width: 992px) {
   .wrap {
     padding: 0 40px; }

@@ -5,7 +5,7 @@
 	require_once("../inc/config.php");
 	
 
-	include(ROOT_PATH . "inc/head.php"); 
+	include(ROOT_PATH . "inc/head.php");
 	include(ROOT_PATH . "inc/header.php");
 	include(ROOT_PATH . "inc/Articles.php");
 
@@ -13,39 +13,39 @@
 
 
 
-<section id="results">
+<section id="articles">
 	<div class="wrap clearfix">
+	
+		<h2 class="roboto-thin ebd-maroon text-center">Our President, Ted Rosen, has written extensively on various topics regarding the sales process within the financial services industry and his articles have been published in numerous acclaimed financial journals.</h2> 
+	
 
-		<h2 class="roboto-thin ebd-maroon text-center">Our clients' needs are as unique as the services we offer. These case studies provide insight into the results our campaigns have produced for our various clients.</h3>
-
-		<?php foreach ($articles as $articles) { 
+		<div id="article-container" class="clearfix">
+			<div id="inner-article-container" class="clearfix">
+		<?php 
+		
+		foreach ($articles as $article) { 
 			echo 
-			'<div class="result row">' 
+			'<a class="article clearfix row" href="' . articles_URL . $article["pdf"] . '" target="_blank">'
 				.
-				'<div class="col-sm-4 text-center">'
+				'<div class="article-icon col-sm-4 text-center">'
 					.
-					'<img class="result-logo" src="' . img_URL . $articles["logo"] . '" />'
+					'<img class="logo-center " src="' . img_URL . $article["logo"] . '" />'
 					.
 					
 				'</div>'	
 				.
-				'<div class="col-sm-8">'			
+				'<div class="title-text roboto-thin col-sm-8">'			
 					.
-					'<p class="lead"><em>&ldquo;' . $articles["title"] . '&rdquo;</em></p>'
-						.
-						'<div class="text-right"><b>' . $articles["publisher"] .  '</b>'.'<br/>' .
-							'<b>'. $articles["author"] .'</b>'.
-							'<br /> <small>' . $articles["date"] . '</small>' 
-						. '</div>'
-						.
-						'<div class="text-primary"><a href="' .articles_URL . $articles["pdf"] . '" target="_blank">' . 'View Article <span class="glyphicon glyphicon-chevron-right"></span></a></div>'				
-				.
+					'<em>' . $article["title"] . '</em>'
+					.
 				'</div>'
-			.
-			'</div>'
-			.
-			'<hr class="result-hr"></hr>'; 
+				.			
+			'</a>' ;
+			
+	
 		} ?>
+		</div>
+	</div>
 	</div>
 </section>	
 
