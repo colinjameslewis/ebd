@@ -130,6 +130,7 @@ header {
 	background-color: $white;
 	border-bottom: 1px solid #ccc;
 	box-shadow: 0 4px 2px -2px #ddd;
+	margin-bottom:25px;
 	#logo-link {
 		
 		display: block;
@@ -358,8 +359,8 @@ header {
 
 /********** page:RESULTS **********/
 
-h2 {
-	margin: 50px 25px;
+.results-header {
+	
 	@include responsive-font(2vw, 20px, 40px, 30px);
 }
 
@@ -424,7 +425,7 @@ h2 {
 	border-bottom-width:1px;
 		&:last-child {
 			border-bottom-style:none;
-		}			
+			}		
 			.logo-center{
 			margin:auto;
 			display:block;
@@ -437,188 +438,156 @@ h2 {
 
 /********** page:CONTACT **********/
 
-#contact-icon-banner{
-padding-right:0 !important;
-padding-left:0 !important;
-display:flex;
-justify-content:center;
+#contact-icon-banner {
+	margin-top: 15px;
+	border-top: 3px solid #ccc;
+	border-bottom: 3px solid #ccc;
+	
+		.email{
+			font-size:9px;
+		}
+	
+		.phone{
+			
+		}
+		
+		.icon-text{
+			padding-top:10px;
+			padding-bottom:10px;
+			text-align:center;
+			margin:0px;
+		}
+		
+}
+	
+	
+
+#contact-container{
+	margin-bottom:40px;
+
+	.contact-box{
+		border-bottom: 1px solid #ccc;
+		padding-top: 15px;
+		padding-bottom: 15px;
+		min-width:300px;
+			&:last-child{
+			border-bottom-style:none;
+			}
+		
+			
+		
+			.department-side{
+				color: $ebd-maroon;
+				font-family: Roboto Thin, sans-serif;
+				font-weight: 900;
+				font-size:20px;
+				text-align:left;
+				padding-left:0 !important;
+			}
+
+			.contact-name{
+				font-size: 16px;
+				font-weight:500;
+				color: #2a64ae;
+			}
+
+			
+			.contact-email{
+				white-space: nowrap;
+			}
+
+			.contact-phone{
+				white-space: nowrap;
+			
+			}
+			.small-icon{   
+				width:20px;
+				margin-right:3px;
+			}
+		
+			.contact-second {
+				margin-top: 15px;
+			}
+	}
 }
 
-.contact-icon{
-padding: 0 !important;
-white-space: nowrap;
-font-size:10px;
-display:flex !important;
-justify-content:center;
-width:100%;
-min-width:115px !important;
-min-height:58.8px;
-margin:0px;
-background-color:white;
-border-width:1px;
-border-color:#d3d3d3;
-border-style:solid;
-border-top-style:none;
-}
-
-.email{
-font-size:9px;
-}
-
-
-.phone{
-Background-color:green;
-font-size:13px;
-color:white;
-
-}
-
-#phone-text{
-padding:15px 0px 10px 0px;
-}
-
-#phone-icon{
-width:12px;
-padding-bottom:2px;
-}
-
-.icon-text{
-padding-top:10px;
-padding-bottom:10px;
-text-align:center;
-margin:0px;
-}
 
 
 
 
 
-#Contact-Container{
-
-display:block;
-margin-bottom:40px;
-
-}
-
-.Contact-Box{
-min-width:220px !important;
-display:flex;
-justify-content:center;
-margin-top:25px;
-padding:0 10px 0 10px !important;
 
 
 
-}
-
-.inner-contact{
-display:block;
-width: 100%;
-padding: 0 !important;
-background-color: #ffffff;
-box-shadow: 0 0 5px 1px #cccccc;
-
-}
-
-.Department-Header{
-color: $ebd-maroon;
-font-family: Roboto Thin, sans-serif;
-font-weight: 900;
-text-align:center;
-margin:auto;
-padding-top:12px;
-padding-bottom: 12px;
 
 
-}
 
-.Contact-info{
-display:flex;
-justify-content: center;
-}
-
-.contact-table{
-padding-bottom:10px;
-text-align:center;
-font-size:11px;
-color:#808080;
-}
-
-.contact-name{
-color: #2a64ae;
-font-size: 20px;
-}
-
-.contact-table td{
-padding:5px 0px 5px 0px;
-}
-
-.small-icon{
-width:20px;
-margin-right:3px;
-}
 
 #general-inq{
-padding:20px 20px 20px 20px;
-display:flex;
-justify-content: center;
-border-bottom: 1px solid #dddddd;
-border-top: 1px solid #dddddd;
-border-width:1px;
-width:50%;
-margin:30px auto 30px auto;
+	padding:20px 20px 20px 20px;
+	display:flex;
+	justify-content: center;
+	border-bottom: 1px solid #dddddd;
+	border-top: 1px solid #dddddd;
+	border-width:1px;
+	width:50%;
+	margin:30px auto 30px auto;
 
+	#gen-inq-button{
+		padding:10px 16px 10px 16px;
+		font-size:18px;
+		display:block;
+		background-color: #428bca;
+		color:white;
+		border-radius: 15px;
+		border-style: none;
+
+			#gen-inq-button:hover{
+				display:block;
+				background-color: #357ebd;
+				color:white;
+				border-radius: 15px;
+				border-bottom-style: none;
+				box-shadow:0 2px 4px 0 rgba(0,0,0,0.24), 0 5px 10px 0 rgba(0,0,0,0.19);
+			}
+
+
+	}
+}
+
+
+
+
+.map-info {
+	color: $ebd-maroon;
+	font-family: Roboto Thin, sans-serif;
+	font-weight: 900;
+	font-size:26px;
+	text-align:center;
+	background-color:#fff;
+	padding: 20px 0 75px;
+
+	#address-info{
+		font-size:15px;
+		color:black;
+	}
+
+	#map-center{
+		margin-top: 20px;
+		display:flex;
+		justify-content:center;
+		min-height:350px;
+		iframe {
+			pointer-events: none;
+			position: relative; /* IE needs a position other than static */
+			&.clicked {
+				pointer-events:auto;
+			}
+		}
+	}
 
 }
 
-#gen-inq-button:hover{
-display:block;
-background-color: #357ebd;
-color:white;
-border-radius: 15px;
-border-bottom-style: none;
-box-shadow:0 2px 4px 0 rgba(0,0,0,0.24), 0 5px 10px 0 rgba(0,0,0,0.19);
-}
-
-#gen-inq-button{
-padding:10px 16px 10px 16px;
-font-size:18px;
-display:block;
-background-color: #428bca;
-color:white;
-border-radius: 15px;
-border-style: none;
-
-}
-
-#map-box{
-
-width:100%;
-margin-bottom:20px;
-
-}
-
-#map-info {
-color: $ebd-maroon;
-font-family: Roboto Thin, sans-serif;
-font-weight: 900;
-font-size:26px;
-display:block;
-text-align:center;
-
-
-}
-
-#address-info{
-font-size:15px;
-color:black;
-}
-
-#Map-center{
-display:flex;
-justify-content:center;
-min-height:350px;
-}
 
 
 
@@ -631,6 +600,70 @@ min-height:350px;
 
 
 /********** page:JOBS **********/
+.ebd-info{
+	min-width:350px;
+	padding-left:12px;
+	margin-bottom:50px;
+	.jobs-info{
+	margin-top:25px;
+	}
+}
+	
+.apply-box{
+	background-color:white;
+	margin-bottom:10px;
+	min-width:350px;
+	.apply-container{
+		Margin:0 10px 15px 10px;
+		min-width:350px;
+			.apply-info{
+				text-align:center;
+			}
+			
+			.apply-right{
+			text-align:center;
+				
+			}
+		}
+	
+	#read-more{
+	background-color:white;
+	border-top-style:solid;
+	border-top-color:#d3d3d3;
+	border-top-width:1px;
+	display:none;
+		.exit{
+		float:right;
+		position:relative;
+		margin-bottom: 10px;
+		color:#d3d3d3;
+		}
+		
+		p{
+		padding-left:5px;
+		}
+	
+	}
+}
+
+.details{
+margin-bottom:25px;
+}
+
+#application-form{
+height:1280px;
+
+	iframe{
+	height:100% !important;
+	}
+}
+
+#disclaimer{
+background-color:white;
+border-radius:5px;
+padding:12px 5px 5px 5px;
+}
+
 
 
 /********** page:PRIVACY - TERMS **********/
@@ -658,6 +691,7 @@ min-height:350px;
 
 footer {
 	padding-top: 25px;
+	margin-top:75px;
 	border-top: 1px solid darken($ebd-blue, 10%);
 	background-color: $ebd-maroon;
 	color: $white !important;	
@@ -855,7 +889,7 @@ footer {
 				.logo-center{
 				margin:auto;
 				display:block;
-				width: 125px;
+				height: 42px;
 				}
 	}
 	
@@ -902,73 +936,144 @@ footer {
 
 	
 /********** page:CONTACT **********/
-	#contact-icon-banner{
+
+	#contact-icon-banner {
+		margin-top: 15px;
+		margin-bottom:25px;
+		border-top: 3px solid #ccc;
+		border-bottom: 3px solid #ccc;
+		
+			.email{
+				font-size:15px;
+			}
+		
+			.phone{
+				
+			}
+			
+			.icon-text{
+				padding-top:10px;
+				padding-bottom:10px;
+				text-align:center;
+				margin:0px;
+			}
+			
+	}
+		
+		
+
+	#contact-container{
+		margin-bottom:40px;
+
+		.contact-box{
+			border-bottom: 1px solid #ccc;
+			padding-top: 25px;
+			padding-bottom: 25px;
+			min-width:300px;
+				&:last-child{
+				border-bottom-style:none;
+				}
+			
+				
+			
+				.department-side{
+					color: $ebd-maroon;
+					font-family: Roboto Thin, sans-serif;
+					font-weight: 900;
+					font-size:20px;
+					text-align:left;
+					padding-left:0 !important;
+				}
+				
+				Contact-info {
+					 div {
+						line-height: 28px;
+						}
+				}
+	
+				.contact-name{
+					font-size: 16px;
+					font-weight:500;
+					color: #2a64ae;
+				}
+
+				
+				.contact-email{
+					white-space: nowrap;
+				}
+
+				.contact-phone{
+					white-space: nowrap;
+					text-align:right;
+				
+				}
+				.small-icon{   
+					width:20px;
+					margin-right:3px;
+				}
+			
+				.contact-second {
+					margin-top: 15px;
+				}
+		}
+	}
+	
+	
+	
+
+	.map-info {
+		color: $ebd-maroon;
+		font-family: Roboto Thin, sans-serif;
+		font-weight: 900;
+		font-size:26px;
+		text-align:center;
+		background-color:#fff;
+		padding: 20px 0 75px;
+
+		#address-info{
+			font-size:15px;
+			color:black;
+		}
+
+		#map-center{
+			margin-top: 20px;
+			display:flex;
+			justify-content:center;
+			min-height:350px;
+		}
+
+	}
+
+	/******* JOBS *******/
+
+	.apply-box{
 	background-color:white;
-	margin-bottom:15px;
-	}
-
-	.contact-icon{
-	padding: 0 !important;
-	white-space: nowrap;
-	font-size:15px;
-	display:flex !important;
-	justify-content:center;
-	width:100%;
-	min-width:115px !important;
-	min-height:58.8px;
-	margin:0px;
-	background-color:transparent;
-	border-width:1px;
-	border-color:#d3d3d3;
-	border-style:none;
-	}
-	
-	.email{
-	font-size:15px;
-	}
-
-
-	.phone{
-	Background-color:transparent;
-	font-size:15px;
-	color:black;
-	}
-
-	#phone-icon{
-	display:block;
-	width:30px;
-	padding-bottom:0px;
-	content:url(/assets/img/Icons/headerphone.png);
-	margin:auto;
+	margin:10px 10px 10px 10px;
+	min-width:330px;
+		.apply-container{
+			Margin:15px 10px 15px 10px;
+			
+				.apply-info{
+					text-align:left;
+					margin-top:15px
+				}
+				
+				.btn{
+					margin-top:20px;
+					text-align:center;
+					}
+			}
+		
+		#read-more{
+		background-color:white;
+		border-top-style:solid;
+		border-top-color:#d3d3d3;
+		border-top-width:1px;
+		display:none;
+		
+		}
 	}
 	
-	#phone-text{
-	padding: 10px 0px 10px 0px;
-	}
-	
-	#call-us{
-	display:none;
-	}
-	
-	
-	.icon-text{
-	padding-top:10px;
-	padding-bottom:10px;
-	text-align:center;
-	margin:0px;
-	}
-	
-	.Contact-Box{
-	min-height: 157px;
-	
-	}
-	
-	#Map-center{
-	display:flex;
-	justify-content:center;
-	min-height:600px;
-	}
-
 }
 
 

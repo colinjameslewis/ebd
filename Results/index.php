@@ -16,7 +16,7 @@
 <section id="results">
 	<div class="wrap clearfix">
 
-		<h2 class="roboto-thin ebd-maroon text-center">Our clients' needs are as unique as the services we offer. These case studies provide insight into the results our campaigns have produced for our various clients.</h3>
+		<h2 class="results-header roboto-thin text-center">Our clients' needs are as unique as the services we offer. These case studies provide insight into the results our campaigns have produced for our various clients.</h2>
 
 		<?php foreach ($results as $result) { 
 			echo 
