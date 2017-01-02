@@ -50,7 +50,7 @@
 						
 						.
 						
-						'<a class="'. $leadership["number"] .'-toggler"> Show Bio More </a>'
+						'<a class="'. $leadership["number"] .'-toggler"> Show Bio  </a>'
 						.
 						
 			
