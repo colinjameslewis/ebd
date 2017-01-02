@@ -351,6 +351,71 @@ header {
 /********** page:COMPANY **********/
 
 
+
+
+.headshot{
+height: 200px;
+}
+
+.read-more{
+
+}
+
+#ted{
+display:none;
+
+}
+
+#matt{
+display:none;
+}
+
+#dolores{
+display:none;
+}
+
+#cyndi{
+display:none;
+}
+
+#judy{
+display:none;
+}
+
+#michael{
+display:none;
+}
+
+#colin{
+display:none;
+}
+
+#nick{
+display:none;
+}
+
+.outer-employee-box{
+margin:5px 0px 5px 0px;
+
+	.employee-box{
+	background-color:white;
+	padding: 5px 0px 5px 0px;
+		
+	}
+}
+
+.bio-box{
+		background-color:white !important;
+		border-top-style:solid;
+		border-top-color:#d3d3d3;
+		border-top-width:1px;
+		padding:5px 5px 5px 5px;
+		
+		
+}
+
+
+
 /********** page:SERVICES **********/
 
 

@@ -16,6 +16,7 @@ $leadership = array();
 //];
 
 $leadership['ted-rosen'] = [
+"number" => "ted",
 	"name" 				=> 	"Ted Rosen",
 	"pic" 				=> 	"leadership/Ted-Rosen.jpg",
 	"title" 			=> 	"President",
@@ -31,6 +32,7 @@ $leadership['ted-rosen'] = [
 ];
 
 $leadership['matthew-regn'] = [
+"number" => "matt",
 	"name" 				=> 	"Matthew Regn",
 	"pic" 				=> 	"leadership/Matt-Regn.jpg",
 	"title" 			=> 	"Senior Relationship Manager",
@@ -48,6 +50,7 @@ $leadership['matthew-regn'] = [
 
 
 $leadership['dolores-recchiute'] = [
+"number" => "dolores",
 	"name" 				=> 	"Dolores Recchiute",
 	"pic" 				=> 	"leadership/Dolores-Recchiute.jpg",
 	"title" 			=> 	"Director",
@@ -65,6 +68,7 @@ $leadership['dolores-recchiute'] = [
 
 
 $leadership['judy-friedman'] = [
+"number" => "judy",
 	"name" 				=> 	"Judy Friedman",
 	"pic" 				=> 	"leadership/Judy-Friedman.jpg",
 	"title" 			=> 	"Manager",
@@ -85,6 +89,7 @@ $leadership['judy-friedman'] = [
 
 
 $leadership['michael-usavage'] = [
+"number" => "michael",
 	"name" 				=> 	"Michael Usavage",
 	"pic" 				=> 	"leadership/Mike-Usavage.jpg",
 	"title" 			=> 	"Director",
@@ -100,6 +105,7 @@ $leadership['michael-usavage'] = [
 
 
 $leadership['cyndi-trombley'] = [
+"number" => "cyndi",
 	"name" 				=> 	"Cyndi Trombley",
 	"pic" 				=> 	"leadership/Cyndi-Trombley.jpg",
 	"title" 			=> 	"Director",
@@ -139,6 +145,7 @@ $leadership['cyndi-trombley'] = [
 
 
 $leadership['colin-lewis'] = [
+"number" => "colin",
 	"name" 				=> 	"Colin Lewis",
 	"pic" 				=> 	"leadership/Colin-Lewis.jpg",
 	"title" 			=> 	"Manager",
@@ -155,6 +162,7 @@ $leadership['colin-lewis'] = [
 
 
 $leadership['nick-ristine'] = [
+"number" => "nick",
 	"name" 				=> 	"Nick Ristine",
 	"pic" 				=> 	"leadership/Nick-Ristine.jpg",
 	"title" 			=> 	"Associate",

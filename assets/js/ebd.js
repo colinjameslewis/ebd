@@ -22,6 +22,28 @@
 	$('#read-more').toggle("slide")});
 	
 	
-
-
-   
+	
+		$('.ted-toggler').click(function(){
+	$('#ted').toggle()});	
+	
+			$('.matt-toggler').click(function(){
+	$('#matt').toggle()});
+	
+			$('.dolores-toggler').click(function(){
+	$('#dolores').toggle("slide")});
+	
+			$('.cyndi-toggler').click(function(){
+	$('#cyndi').toggle("slide")});
+	
+			$('.judy-toggler').click(function(){
+	$('#judy').toggle("slide")});
+	
+			$('.michael-toggler').click(function(){
+	$('#michael').toggle("slide")});
+	
+			$('.colin-toggler').click(function(){
+	$('#colin').toggle("slide")});
+	
+			$('.nick-toggler').click(function(){
+	$('#nick').toggle("slide")});
+	
