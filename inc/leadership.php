@@ -24,7 +24,7 @@ $leadership['ted-rosen'] = [
 	"phone" 			=> 	"610-771-2120",
 	"email" 			=> 	"tarosen@expertbizdev.com",
 	"vCard" 			=> 	"path/to/vCard",
-	"bio"				=> 	"<p>Theodore A. Rosen, President, Expert Business Development, LLC, Bala Cynwyd, PA, a firm 					specializing in helping community and regional banks, and other financial service providers 					build commercial relationships though professional appointment setting, Web-based 								relationship management and sales tracking systems and sales process design, He has attained 					a national reputation delivering presentations and writing articles on subjects including sales process, sales culture, cross-selling and relationship management. He has worked closely with the Federal regulatory agencies, the American Bankers Association, America’s Community Bankers, Independent Community Bankers of America, Risk Management Association, and many state associations and community bank leagues. He has advised congressional staff and bank regulators and has trained federal bank examiners.</p>
+	"bio"				=> 	"<p><span class='ebd-maroon'>Theodore A. Rosen</span>, President, Expert Business Development, LLC, Bala Cynwyd, PA, a firm 					specializing in helping community and regional banks, and other financial service providers 					build commercial relationships though professional appointment setting, Web-based 								relationship management and sales tracking systems and sales process design, He has attained 					a national reputation delivering presentations and writing articles on subjects including sales process, sales culture, cross-selling and relationship management. He has worked closely with the Federal regulatory agencies, the American Bankers Association, America’s Community Bankers, Independent Community Bankers of America, Risk Management Association, and many state associations and community bank leagues. He has advised congressional staff and bank regulators and has trained federal bank examiners.</p>
 
 						<p>Mr. Rosen holds a BS in marketing from Pennsylvania State University. He is Chairman of the Board of Harcum College, past president of the Golden Slipper Charities, past Chairman of the Board of the Visiting Nurse Association of Greater Philadelphia, and a Trustee of Albert Einstein Healthcare Network, Belmont Behavioral Health, Moss Rehab Hospital, American Bankers Association Marketing Network, the Wolf Performing Arts Center and numerous other community and charitable organizations.</p>
 
@@ -40,7 +40,7 @@ $leadership['matthew-regn'] = [
 	"phone" 			=> 	"484-429-7150",
 	"email" 			=> 	"mregn@expertbizdev.com",
 	"vCard" 			=> 	"path/to/vCard",
-	"bio"				=> 	"<p>As a Senior Relationship Manager, Matthew focuses on building new client relationships while developing new opportunities with our current client base.</p>
+	"bio"				=> 	"<p>As a Senior Relationship Manager, <span class='ebd-maroon'>Matthew Regn</span> focuses on building new client relationships while developing new opportunities with our current client base.</p>
 
 <p>A graduate of Bloomsburg University with a B.A. in Communications, Matthew has worked in business development within several industries for over 13 years. The majority of his diverse background was spent within financial institutions, such as Wachovia and CIT Group Inc., where he dealt primarily with bankers, mortgage brokers and financial products and services. He is also a veteran of commercial and industrial business development through his years working with multiple Fortune 500 companies. This versatility makes him an ideal proponent of our mission to provide relationship building services to any and all businesses and financial service providers across the nation.</p>
 
@@ -58,7 +58,7 @@ $leadership['dolores-recchiute'] = [
 	"phone" 			=> 	"610-771-2123",
 	"email" 			=> 	"drecch@expertbizdev.com",
 	"vCard" 			=> 	"path/to/vCard",
-	"bio"				=> 	 "<p>Dolores Recchiute has been the Director of Client Relations at Expert Business Development, LLC since October 2004. She is involved in all phases of client business development projects including planning, implementation, and management.</p>
+	"bio"				=> 	 "<p><span class='ebd-maroon'>Dolores Recchiute</span> has been the Director of Client Relations at Expert Business Development, LLC since October 2004. She is involved in all phases of client business development projects including planning, implementation, and management.</p>
 
 <p>Ms. Recchiute has over 20 years experience in business development, customer support and account management. After earning a BBA in Marketing from Temple University, she worked several years as an Account Manager at Unisys marketing hardware, software and technical services to Fortune 500 companies. Thereafter, Ms. Recchiute developed new business and provided customer support at Green Tech Energy Services and Beisswenger Associates.</p>
 
@@ -77,7 +77,7 @@ $leadership['judy-friedman'] = [
 
 	"email" 			=> 	"jfriedman@expertbizdev.com",
 	"vCard" 			=> 	"path/to/vCard",
-	"bio"				=> 	"<p>Judy counts herself lucky to reside in Bala Cynwyd, PA, barely a drive away from her work as Director of Client Relations for Expert Business Development. She comes by way of both New York City and San Diego, with a brief stop at the Pennsylvania State University to earn her BA in psychology, to produce an undergraduate thesis in the honors program on the science of hypnosis, and to get elected to Phi Beta Kappa.</p>
+	"bio"				=> 	"<p><span class='ebd-maroon'>Judy Friedman </span>counts herself lucky to reside in Bala Cynwyd, PA, barely a drive away from her work as Director of Client Relations for Expert Business Development. She comes by way of both New York City and San Diego, with a brief stop at the Pennsylvania State University to earn her BA in psychology, to produce an undergraduate thesis in the honors program on the science of hypnosis, and to get elected to Phi Beta Kappa.</p>
 
 <p>After an introduction to the health insurance industry at Scripps Clinic in La Jolla, she worked several years at the Child Guidance Clinic as Head of Intake, Research Assistant to the Chief of Psychology, and Manager of the Residency Training Program for the University of California at San Diego. She returned to the east coast to start a family and pursue her interest in yoga through practice, teaching, and research. Judy taught yoga at many of the adult school programs in the Philadelphia tri-county area, Garland of Letters, the Fitness Factory, Riverside Racket & Fitness, Temple University, and the Ben Franklin Clinic where she participated in Dean Ornish's research exploring the effects of yoga on patients with heart disease. While working for SKY Foundation and the Yoga Research Society, she helped produce an array of conferences and concerts featuring doctors, scientists, authors, and celebrities who were proponents of alternative health and eastern philosophy.</p>
 
@@ -98,7 +98,7 @@ $leadership['michael-usavage'] = [
 
 	"email" 			=> 	"musavage@expertbizdev.com",
 	"vCard" 			=> 	"path/to/vCard",
-	"bio"				=> 	"<p>Michael Usavage joined Expert Business Development in August of 2009 as a Marketing Assistant and Data Specialist where he was thrust into to the day-to-day operations of the company. After a year, he assumed the role of Manager of Systems and Technology and now supervises the company’s IT assets and deployments. Knowing that an IT manager’s job is never done, Michael is constantly exploring and implementing new technologies and systems to support the company’s growth and competitive edge in the business community.</p>
+	"bio"				=> 	"<p><span class='ebd-maroon'>Michael Usavage</span> joined Expert Business Development in August of 2009 as a Marketing Assistant and Data Specialist where he was thrust into to the day-to-day operations of the company. After a year, he assumed the role of Manager of Systems and Technology and now supervises the company’s IT assets and deployments. Knowing that an IT manager’s job is never done, Michael is constantly exploring and implementing new technologies and systems to support the company’s growth and competitive edge in the business community.</p>
 
 <p>Before coming to EBD, Michael worked at an advertising agency in Philadelphia where he was responsible for performing primary and secondary consumer research. He is also part owner of Awesome & Fantastic, which specializes in web design and web services. Michael has a BA in Advertising from Temple University and currently resides in Center City Philadelphia. In his spare time, he can often be seen riding his bike on the trails around Philadelphia or working on his computer.</p>"
 ];
@@ -114,7 +114,7 @@ $leadership['cyndi-trombley'] = [
 
 	"email" 			=> 	"ctrombley@expertbizdev.com",
 	"vCard" 			=> 	"path/to/vCard",
-	"bio"				=> 	"<p>Cyndi Trombley brings to EBD a vast array of skills in the finance, communications and IT fields accumulated through over 20 years of consulting for Fortune 500 companies in the Insurance, Education, Healthcare, Travel and Security industries. </p>
+	"bio"				=> 	"<p><span class='ebd-maroon'>Cyndi Trombley</span> brings to EBD a vast array of skills in the finance, communications and IT fields accumulated through over 20 years of consulting for Fortune 500 companies in the Insurance, Education, Healthcare, Travel and Security industries. </p>
 
   <p>After graduating from the Rochester Institute of Technology, Cyndi was instrumental to the launch of Personal Lines Insurance Brokerage, a subsidiary of the Chubb Group of Insurance Companies. While raising her family, she served as a journalist for Recorder Newspapers in New Jersey and a marketing, technical writing and project management consultant for Alanna, CPR and A2C Consultancies, working in the airport IT and healthcare industries.</p>
 
@@ -153,7 +153,7 @@ $leadership['colin-lewis'] = [
 	"phone" 			=> 	"610-771-2128",
 	"email" 			=> 	"clewis@expertbizdev.com",
 	"vCard" 			=> 	"path/to/vCard",
-	"bio"				=> 	"<p>Colin joined EBD in the Spring of 2013 and has leveraged his coding and design skills to redesign the company's online web presence as well as help expand our client service offerings to include a comprehensive eMarketing solution, all while providing continued administrative support of EBD's daily operations.</p> 
+	"bio"				=> 	"<p><span class='ebd-maroon'>Colin Lewis </span>joined EBD in the Spring of 2013 and has leveraged his coding and design skills to redesign the company's online web presence as well as help expand our client service offerings to include a comprehensive eMarketing solution, all while providing continued administrative support of EBD's daily operations.</p> 
 
 <p>Prior to joining EBD, Colin graduated from the University of Pittsburgh with a degree in Linguistics and Hispanic languages. After a number of years working in sales within the Travel and Medical-device industries, he was accepted to participate in Start-Up Chile, an entrepreneurship incubator hosted in Santiago, Chile. While traveling South America with other young start-up founders from around the world, he began developing his skills as a front-end web developer and continues to build on that experience within his role at EBD.</p> 
 
@@ -171,7 +171,7 @@ $leadership['nick-ristine'] = [
 
 	"email" 			=> 	"nristine@expertbizdev.com",
 	"vCard" 			=> 	"path/to/vCard",
-	"bio"				=> 	"<p>Nick joined EBD as a Marketing Data Intern during his final semester of college in 2015. After completing his internship and graduating from Temple University’s Fox School of Business with a Bachelor’s Degree in Economics, he joined EBD as a full time Client Services asset in early 2016. </p>
+	"bio"				=> 	"<p><span class='ebd-maroon'>Nick Ristine</span> joined EBD as a Marketing Data Intern during his final semester of college in 2015. After completing his internship and graduating from Temple University’s Fox School of Business with a Bachelor’s Degree in Economics, he joined EBD as a full time Client Services asset in early 2016. </p>
 
 <p>When Nick is not in the office you can find him working out at the gym, practicing guitar at home, or fixing his car. </p>"
 ];

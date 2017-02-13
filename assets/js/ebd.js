@@ -22,28 +22,33 @@
 	$('#read-more').toggle("slide")});
 	
 	
+$(".bio-toggler").click(function(){
+	$("#" + $(this).data("bio")).toggle()
+	$("." + $(this).data("card")).toggleClass("current");
+});
+
+
+	//	$('.ted-toggler').click(function(){
+	//$('#ted').toggle()});	
+	//
+		//	$('.matt-toggler').click(function(){
+	//$('#matt').toggle()});
 	
-		$('.ted-toggler').click(function(){
-	$('#ted').toggle()});	
+		//	$('.dolores-toggler').click(function(){
+	//$('#dolores').toggle("slide")});
 	
-			$('.matt-toggler').click(function(){
-	$('#matt').toggle()});
+		//	$('.cyndi-toggler').click(function(){
+	//$('#cyndi').toggle("slide")});
 	
-			$('.dolores-toggler').click(function(){
-	$('#dolores').toggle("slide")});
+		//	$('.judy-toggler').click(function(){
+	//$('#judy').toggle("slide")});
 	
-			$('.cyndi-toggler').click(function(){
-	$('#cyndi').toggle("slide")});
+		//	$('.michael-toggler').click(function(){
+	//$('#michael').toggle("slide")});
 	
-			$('.judy-toggler').click(function(){
-	$('#judy').toggle("slide")});
+		//	$('.colin-toggler').click(function(){
+	//$('#colin').toggle("slide")});
 	
-			$('.michael-toggler').click(function(){
-	$('#michael').toggle("slide")});
-	
-			$('.colin-toggler').click(function(){
-	$('#colin').toggle("slide")});
-	
-			$('.nick-toggler').click(function(){
-	$('#nick').toggle("slide")});
+		//	$('.nick-toggler').click(function(){
+	//$('#nick').toggle("slide")});
 	

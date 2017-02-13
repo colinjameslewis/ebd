@@ -22,17 +22,17 @@
 			echo 
 			'<div class="outer-employee-box col-sm-6 ">'
 				.
-				'<div class = "clearfix employee-box">'			
+				'<div class = "clearfix employee-box '. $leadership["number"] .' ">'			
 				
 					.
-					'<div class="col-sm-6">'
+					'<div class="col-xs-6 head-box">'
 						.
 						'<img class="headshot" src="'   . img_URL  . $leadership["pic"] . '" />'
 						.
 						
 					'</div>'
 					.
-					'<div class="roboto-thin  col-sm-6">'			
+					'<div class="info-box roboto-thin  col-xs-6">'			
 						.
 						'<h3>' . $leadership["name"] . '</h3>' . '</br>' 
 						.
@@ -50,7 +50,7 @@
 						
 						.
 						
-						'<a class="'. $leadership["number"] .'-toggler"> Show Bio  </a>'
+						'<a class="bio-toggler" data-bio="' . $leadership["number"] . '" data-card="' . $leadership["number"] .'"> <span id="a">Show Bio</span><span id="b">Close Bio</span> </a>'
 						.
 						
 			
@@ -59,14 +59,29 @@
 					.
 				'</div>' 
 						
+				
+				
 				.
-				'<div class="bio-box" id="'. $leadership["number"] .'">' . '<em>' . $leadership["bio"] . '</em>'
+					
+			'</div>'
+			
+			
+			
+			.
+			
+			'<div class="outer-bio col-sm-12" id="' . $leadership["number"] .'">'
+			
+			.
+			
+				'<div class="bio-box" >' . '<em>' . $leadership["bio"] . '</em>'
 				.			
 				
 				'</div>'
 				.
-					
-			'</div>';
+				
+			'</div>'
+			
+			;
 	
 		} ?>
 
