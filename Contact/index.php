@@ -16,7 +16,7 @@
 
 		<div class="contact-icon col-sm-4">
 			<p class="icon-text email">
-			<img src ="/assets/img/Icons/contactemail.png" alt ="<blank>" style ="width:30px;">
+			<img src="/assets/img/Icons/contactemail.png" alt ="<blank>" width="30px">
 		
 				<br>
 				info@expertbizdev.com
@@ -25,12 +25,12 @@
 		<div class="contact-icon phone col-sm-4">
 			<p class="icon-text" id="phone-text"><span id="call-us">
 			Call Us!<br></span>
-				<img id="phone-icon" src ="/assets/img/Icons/headerphone-gray.png"  alt ="Call Us!" >
+				<img id="phone-icon" src ="/assets/img/Icons/headerphone-gray.png"  alt="Call Us!" >
 				800-422-1066</p>
 		</div>
 		<div class="contact-icon  col-sm-4">		
 			<p class="icon-text">
-			<img src ="/assets/img/Icons/fax.png" alt ="<blank>" style ="width:33px; padding-left:3px;"><br>
+			<img src ="/assets/img/Icons/fax.png" alt ="<blank>" style ="width:33px;padding-left:3px;"><br>
 				610-680-3360
 			</p>
 		</div>
@@ -74,6 +74,7 @@
 	
 	
 	<!-- Contact Boxes -->
+<<<<<<< Updated upstream
 	<div id="contact-container" class="clearfix"  >		
 		
 		<!-- ****** SALES ****** -->
@@ -99,6 +100,52 @@
 						<img class="small-icon" src ="/assets/img/Icons/headerphone-gray.png"  alt ="Call Us!" >610-771-2121						
 					</div>	
 					
+=======
+	<div id="Contact-Container">		
+		
+		<!-- ****** SALES ****** -->
+			<div class="Contact-Box col-sm-4">
+				<div class="inner-contact">
+				<h3 class="Department-Header"> Sales </h3>
+				<div class="Contact-info">
+					<table class="contact-table">
+						<tr class="contact-name">
+							<td>
+							Ted Rosen
+							<td>
+						</tr>
+						<tr>
+							<td>
+								<img class="small-icon"  src ="/assets/img/Icons/contactemail-gray.png" alt ="<blank>" >tarosen@expertbizdev.com
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<img class="small-icon" src ="/assets/img/Icons/headerphone-gray.png"  alt ="Call Us!" >610-771-2121
+							</td>
+						</tr>
+					</table>
+				</div>
+			
+				<div class="Contact-info">
+					<table class="contact-table">
+						<tr class="contact-name">
+							<td>
+							Matt Regn
+							<td>
+						</tr>
+						<tr>
+							<td>
+								<img class="small-icon"  src ="/assets/img/Icons/contactemail-gray.png" alt ="<blank>">mregn@expertbizdev.com
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<img class="small-icon" src ="/assets/img/Icons/headerphone-gray.png"  alt ="Call Us!" >484-429-7150
+							</td>
+						</tr>
+					</table>
+>>>>>>> Stashed changes
 				</div>
 				
 				
@@ -134,6 +181,7 @@
 			
 				<div class="clearfix">
 				
+<<<<<<< Updated upstream
 					<div class ="contact-name col-sm-4">						 
 						Judy Friedman
 					</div>
@@ -146,6 +194,30 @@
 						<img class="small-icon" src ="/assets/img/Icons/headerphone-gray.png"  alt ="Call Us!" >610-771-2121
 					</div>
 					
+=======
+		<div class="Contact-Box col-sm-4" >	
+			<div class="inner-contact2">
+				<h3 class="Department-Header col-sm-12"> ELMS </h3>
+				<div class="Contact-info col-sm-12">
+					<table class="contact-table">
+						<tr class="contact-name">
+							<td>
+							
+						<b>Support</b> - Michael Usavage
+							<td>
+						</tr>
+						<tr>
+							<td>
+								<img class="small-icon"  src ="/assets/img/Icons/contactemail-gray.png" alt ="<blank>" >musavage@expertbizdev.com
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<img class="small-icon" src ="/assets/img/Icons/headerphone-gray.png"  alt ="Call Us!" >610-771-2120
+							</td>
+						</tr>
+					</table>
+>>>>>>> Stashed changes
 				</div>
 				
 				
@@ -312,9 +384,16 @@
 		<button id="gen-inq-button">
 		General Inquires 
 		</button>
+<<<<<<< Updated upstream
 	</div>	-->
 </div>
 </section>	
+=======
+	</div>
+	
+	
+	<hr style="color:#000;"></hr>
+>>>>>>> Stashed changes
 
 	
 	<!-- Map Box --> 
