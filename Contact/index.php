@@ -74,7 +74,7 @@
 	
 	
 	<!-- Contact Boxes -->
-<<<<<<< Updated upstream
+
 	<div id="contact-container" class="clearfix"  >		
 		
 		<!-- ****** SALES ****** -->
@@ -100,7 +100,7 @@
 						<img class="small-icon" src ="/assets/img/Icons/headerphone-gray.png"  alt ="Call Us!" >610-771-2121						
 					</div>	
 					
-=======
+
 	<div id="Contact-Container">		
 		
 		<!-- ****** SALES ****** -->
@@ -145,7 +145,7 @@
 							</td>
 						</tr>
 					</table>
->>>>>>> Stashed changes
+
 				</div>
 				
 				
@@ -170,7 +170,7 @@
 		</div>	
 				
 			
-				<!-- ****** Client Services ******* --->
+				<!-- ****** Client Services ******* -->
 		<div class="contact-box clearfix" >
 		
 			<div class="department-side col-sm-2 col-md-offset-1">
@@ -181,7 +181,7 @@
 			
 				<div class="clearfix">
 				
-<<<<<<< Updated upstream
+
 					<div class ="contact-name col-sm-4">						 
 						Judy Friedman
 					</div>
@@ -194,7 +194,7 @@
 						<img class="small-icon" src ="/assets/img/Icons/headerphone-gray.png"  alt ="Call Us!" >610-771-2121
 					</div>
 					
-=======
+
 		<div class="Contact-Box col-sm-4" >	
 			<div class="inner-contact2">
 				<h3 class="Department-Header col-sm-12"> ELMS </h3>
@@ -217,7 +217,7 @@
 							</td>
 						</tr>
 					</table>
->>>>>>> Stashed changes
+
 				</div>
 				
 				
@@ -388,12 +388,11 @@
 	</div>	-->
 </div>
 </section>	
-=======
+
 	</div>
 	
 	
 	<hr style="color:#000;"></hr>
->>>>>>> Stashed changes
 
 	
 	<!-- Map Box --> 
